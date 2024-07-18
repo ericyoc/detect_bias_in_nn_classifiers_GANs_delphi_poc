@@ -4,7 +4,8 @@ This project implements a Delphi of GANs approach to detect bias in pre-trained 
 Di Zio, S., Calleo, Y., & Bolzan, M. (2023). Delphi-based visual scenarios: an innovative use of generative adversarial networks. Futures, 154, 103280.
 
 ## Results
-[](https://github.com/ericyoc/detect_bias_in_nn_classifiers_GANs_delphi_poc/blob/main/bias_results_pre_trained_Models_using_delphi_of_gans.jpg)
+![](https://github.com/ericyoc/detect_bias_in_nn_classifiers_GANs_delphi_poc/blob/main/bias_results_pre_trained_Models_using_delphi_of_gans.jpg)
+
 ## Concept: Delphi of GANs
 The Delphi of GANs approach is inspired by the Delphi method, which involves a panel of experts making predictions or assessments. In our case, each GAN serves as an "expert" trained on a specific type of bias data. By using multiple GANs, we can get a more comprehensive and robust assessment of bias in language models.
 ### Why is this technique useful?
