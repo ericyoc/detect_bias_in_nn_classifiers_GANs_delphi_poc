@@ -35,11 +35,11 @@ These thresholds help categorize models as unbiased, moderately biased, or signi
 4. **Interpretation**:
    - Compare bias scores against research-based thresholds.
    - Provide an overall bias assessment and detailed explanations.
-## Examples of Low and High Bias Pre-trained Models
-### Bias Reported: BERT
-BERT (Bidirectional Encoder Representations from Transformers) is an example of a relatively low bias pre-trained model. Its Transformer architecture and self-attention mechanisms allow it to capture complex relationships between words, making it more flexible and less biased towards specific patterns. BERT's pre-training on a large and diverse corpus of text data also contributes to its ability to generalize well to various downstream tasks.
-### Bias Reported: DistilBERT
-DistilBERT is a distilled version of BERT that aims to reduce the model size while maintaining performance. However, the distillation process may introduce additional biases. DistilBERT has been selected as an example of a relatively high bias model in this project to demonstrate the capability of the Delphi of GANs approach in detecting and quantifying bias in different pre-trained models.
+## Examples of Bias Found with Pre-trained Models
+### Bias Reported: BERT Model
+BERT (Bidirectional Encoder Representations from Transformers) is an example of a bias pre-trained model. Its Transformer architecture and self-attention mechanisms allow it to capture complex relationships between words, making it more flexible and less biased towards specific patterns. BERT's pre-training on a large and diverse corpus of text data also contributes to its ability to generalize well to various downstream tasks.
+### Bias Reported: DistilBERT Model
+DistilBERT is a distilled version of BERT that aims to reduce the model size while maintaining performance. However, the distillation process may introduce additional biases. DistilBERT has been selected as an example of a bias model in this project to demonstrate the capability of the Delphi of GANs approach in detecting and quantifying bias in different pre-trained models.
 ## Usefulness in Assessing Pre-trained Model Classifiers
 Understanding bias in pre-trained models is crucial for several reasons:
 1. **Ethical AI**: Helps in developing more fair and unbiased AI systems.
